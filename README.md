@@ -8,3 +8,24 @@
     yarn
     yarn dev
 
+## TAILWINDCSS
+### tailwind.config.cjs : 
+
+    /** @type {import('tailwindcss').Config} */
+    module.exports = {
+      content: [
+        "./index.html",
+        "./src/**/*.{js,ts,jsx,tsx}",
+      ],
+      theme: {
+        extend: {},
+      },
+      plugins: [],
+    }
+
+### index.css
+
+    /* index.css */
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
