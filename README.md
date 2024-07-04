@@ -29,3 +29,26 @@
     @tailwind base;
     @tailwind components;
     @tailwind utilities;
+
+## Navegação
+
+    import {BrowserRouter as Router,Routes, Route} from 'react-router-dom'
+    
+    const App = () => {
+          return (
+            <>
+            <Router>
+              <Header/>
+              <Routes>
+                <Route path='/' element={<Home/>}/>
+                <Route path='/exemple1' element={<Exemple1/>}/>
+                <Route path='/exemple2' element={<Exemple2/>}/>
+              </Routes>
+              <Footer/>
+            </Router>
+            </>
+          );
+    };
+    
+    export default App
+
