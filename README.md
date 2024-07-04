@@ -9,7 +9,7 @@
     yarn dev
 
 ## TAILWINDCSS
-### tailwind.config.cjs : 
+### tailwind.config.js : 
 
     /** @type {import('tailwindcss').Config} */
     module.exports = {
