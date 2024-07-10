@@ -15,7 +15,7 @@ const Header = () => {
           <button className='text-white'>Login</button>
         </Link>
         <Link to="/cadastro">
-          <button className='text-white'>Cadastre-se</button>
+          <button className='text-black bg-white rounded px-2'>Abrir conta</button>
         </Link>
       </div>
     </nav>
