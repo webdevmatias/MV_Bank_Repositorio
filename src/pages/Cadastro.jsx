@@ -49,7 +49,7 @@ const Cadastro = () => {
   };
 
   return (
-    <section className="flex flex-col justify-center items-center w-full min-h-screen bg-gray-800 text-white p-16">
+    <section className="flex flex-col justify-center items-center w-full min-h-screen bg-gray-600 text-white p-16">
       <div className='my-4 text-white w-full max-w-md'>
         <h1 className='font-bold text-4xl'>Cadastro MVBank</h1>
       </div>

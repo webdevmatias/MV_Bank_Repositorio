@@ -13,7 +13,7 @@ const Login = () => {
   }
 
   return (
-    <section className="flex flex-col justify-center items-center w-full h-screen bg-gray-800">
+    <section className="flex flex-col justify-center items-center w-full h-screen bg-gray-600">
       <form onSubmit={handleSubmit} className="bg-gray-700 p-4 md:p-8 rounded-lg flex flex-col gap-4 w-94">
         <h1 className="text-white text-2xl mb-4">Login</h1>
 
